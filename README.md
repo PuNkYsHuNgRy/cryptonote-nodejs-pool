@@ -619,7 +619,7 @@ sudo systemctl start cryptonote-nodejs-pool.service
 
 To enable merged mining you will need to use at leas 2 nodejs processes. One for the pool process + main coin config and another process for the child coin payments, unlocker, etc.
 First, you will need both coins node daemons running.
-Take a look at the [config_inf8-mcn.json](https://github.com/campurro/cryptonote-nodejs-pool/blob/master/config_inf8-mcn.json) for a main (pool) config example.
+Take a look at the [config_inf8-mcn.json](https://github.com/solfly/cryptonote-nodejs-pool/blob/master/config_inf8-mcn.json) for a main (pool) config example.
 The child coin config file is a normal config with your child coin data but with the poolServer.enabled set to false. 
 
 ```
@@ -769,18 +769,21 @@ curl 127.0.0.1:18081/json_rpc -d '{"method":"getblockheaderbyheight","params":{"
 Donations
 ---------
 
-Thanks for supporting my works on this project! If you want to make a donation to [Campurro](https://github.com/campurro/), the developper of the merged mining support for this project, you can send any amount of your choice to one of theses addresses:
+Thanks for supporting my works on this project! If you want to make a donation to [SolFly](https://github.com/solfly/), the developper of the merged mining support for this project, you can send any amount of your choice to one of theses addresses:
 
-* Bitcoin (BTC): `35kAuFPUS1REXQnGM2TxqMbwkKZ9hA4ZfW`
-* Ethereum (ETH): `0x1f6177295A6630858BFA25fD60effA048B307674`
-* Litecoin (LTC): `MPoYzJjr7FhRqwgSNNYi6Ai9uQ9MeiR5Yy`
-* Monero (XMR): `49nCLA3KtAx5MTWidB3opHif7cwnXXHcn6occpXB8DTe6B4QjcAqG4SH7TrGPVuE4n1ygE6is5nER4ms1Yb1hnmYMkBwN4L`
-* Moneta Verde (MCN): `VduTsfyVGBAA2CqdqEh4Vya7B1im7sf1PDbntv1GomLxQpXNxwucsww4ArmR6uLK7PQCY4kVnPGXr8evyXDFNmkk2aBv178S6`
+* Bitcoin (BTC): `1Mf7jcdVvvBJvQwW99612Umx6vPGHWVhKN`
+* Ethereum (ETH): `0x4e725F13C1Ef65612b87712821315dD71dBE81cA`
+* Litecoin (LTC): `LWhUCd7YBB7NM87Ybz19mNfu22eVvUBwsN`
+* Ethereum Classic (ETC): `0x6AC3e8f2CddBf5Ee6A9e6CB99eF8ee4B29ba66c0`
+* Monero (XMR): `47p69DcezbY7tWcbsyZLtyf8YqvbtVLQiLUy3NnaVaxkbJVxwqmvLbS5PV5Kk9kP2RGqVB8dXgEVKA8dXuqsxRPrBx3Qine`
+* DASH (DASH): `47p69DcezbY7tWcbsyZLtyf8YqvbtVLQiLUy3NnaVaxkbJVxwqmvLbS5PV5Kk9kP2RGqVB8dXgEVKA8dXuqsxRPrBx3Qine`
+* Zcash (ZEC): `t1arvRedVm1acauWdnT5y4okMWPjAnYpf8Z`
 
 
 Credits
 ---------
 * [Daniel Vandal](https://github.com/dvandal/) - Developer of this project when this project was created.
+* [Campurro](https://github.com/campurro/) - Developer of this project.
 * [fancoder](//github.com/fancoder) - Developer on cryptonote-universal-pool project from which current project is forked.
 
 License
