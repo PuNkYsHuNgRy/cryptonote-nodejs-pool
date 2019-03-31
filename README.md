@@ -101,7 +101,7 @@ Community / Support
 #### Pools Using This Software
 
 * https://minercountry.com/
-
+* https://fastpool.xyz/
 
 Usage
 ===
