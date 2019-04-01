@@ -257,7 +257,7 @@
         "currency": "USD"
     },
     
-    "charts": {
+      "charts": {
         "pool": {
             "hashrate": {
                 "enabled": true,
